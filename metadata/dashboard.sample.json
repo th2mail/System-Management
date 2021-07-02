@@ -1,0 +1,5026 @@
+{
+    "rows": 852,
+    "cols": 338,
+    "cellWidth": 1,
+    "cellHeight": 1,
+    "gridDash": "1,5",
+    "children": [
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01",
+        "comp_type": "switch",
+        "tooltip": {
+          "text": "DJ-TOR-SW-01 - dj/c/cgni01/c/rack01/41/sw/tor01"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 10
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 82
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "DJ-TOR-SW-01",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/01",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "1 - dj/c/cgni01/c/rack01/41/sw/tor01/01"
+        },
+        "location": {
+          "gridX": 15,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "1",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/02",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "2 - dj/c/cgni01/c/rack01/41/sw/tor01/02"
+        },
+        "location": {
+          "gridX": 15,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "2",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/03",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "3 - dj/c/cgni01/c/rack01/41/sw/tor01/03"
+        },
+        "location": {
+          "gridX": 28,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "3",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/04",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "4 - dj/c/cgni01/c/rack01/41/sw/tor01/04"
+        },
+        "location": {
+          "gridX": 28,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "4",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/05",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "5 - dj/c/cgni01/c/rack01/41/sw/tor01/05"
+        },
+        "location": {
+          "gridX": 41,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "5",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/06",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "6 - dj/c/cgni01/c/rack01/41/sw/tor01/06"
+        },
+        "location": {
+          "gridX": 41,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "6",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/07",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "7 - dj/c/cgni01/c/rack01/41/sw/tor01/07"
+        },
+        "location": {
+          "gridX": 54,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "7",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/08",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "8 - dj/c/cgni01/c/rack01/41/sw/tor01/08"
+        },
+        "location": {
+          "gridX": 54,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "8",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/09",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "9 - dj/c/cgni01/c/rack01/41/sw/tor01/09"
+        },
+        "location": {
+          "gridX": 67,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "9",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/10",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "10 - dj/c/cgni01/c/rack01/41/sw/tor01/10"
+        },
+        "location": {
+          "gridX": 67,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "10",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/11",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "11 - dj/c/cgni01/c/rack01/41/sw/tor01/11"
+        },
+        "location": {
+          "gridX": 80,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "11",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/12",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "12 - dj/c/cgni01/c/rack01/41/sw/tor01/12"
+        },
+        "location": {
+          "gridX": 80,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "12",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/13",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "13 - dj/c/cgni01/c/rack01/41/sw/tor01/13"
+        },
+        "location": {
+          "gridX": 93,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "13",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/14",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "14 - dj/c/cgni01/c/rack01/41/sw/tor01/14"
+        },
+        "location": {
+          "gridX": 93,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "14",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/15",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "15 - dj/c/cgni01/c/rack01/41/sw/tor01/15"
+        },
+        "location": {
+          "gridX": 106,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "15",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/16",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "16 - dj/c/cgni01/c/rack01/41/sw/tor01/16"
+        },
+        "location": {
+          "gridX": 106,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "16",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/17",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "17 - dj/c/cgni01/c/rack01/41/sw/tor01/17"
+        },
+        "location": {
+          "gridX": 119,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "17",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/18",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "18 - dj/c/cgni01/c/rack01/41/sw/tor01/18"
+        },
+        "location": {
+          "gridX": 119,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "18",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/19",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "19 - dj/c/cgni01/c/rack01/41/sw/tor01/19"
+        },
+        "location": {
+          "gridX": 132,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "19",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/20",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "20 - dj/c/cgni01/c/rack01/41/sw/tor01/20"
+        },
+        "location": {
+          "gridX": 132,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "20",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/21",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "21 - dj/c/cgni01/c/rack01/41/sw/tor01/21"
+        },
+        "location": {
+          "gridX": 145,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "21",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/22",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "22 - dj/c/cgni01/c/rack01/41/sw/tor01/22"
+        },
+        "location": {
+          "gridX": 145,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "22",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/23",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "23 - dj/c/cgni01/c/rack01/41/sw/tor01/23"
+        },
+        "location": {
+          "gridX": 158,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "23",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/24",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "24 - dj/c/cgni01/c/rack01/41/sw/tor01/24"
+        },
+        "location": {
+          "gridX": 158,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "24",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/25",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "25 - dj/c/cgni01/c/rack01/41/sw/tor01/25"
+        },
+        "location": {
+          "gridX": 171,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "25",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/26",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "26 - dj/c/cgni01/c/rack01/41/sw/tor01/26"
+        },
+        "location": {
+          "gridX": 171,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "26",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/27",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "27 - dj/c/cgni01/c/rack01/41/sw/tor01/27"
+        },
+        "location": {
+          "gridX": 184,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "27",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/28",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "28 - dj/c/cgni01/c/rack01/41/sw/tor01/28"
+        },
+        "location": {
+          "gridX": 184,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "28",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/29",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "29 - dj/c/cgni01/c/rack01/41/sw/tor01/29"
+        },
+        "location": {
+          "gridX": 197,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "29",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/30",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "30 - dj/c/cgni01/c/rack01/41/sw/tor01/30"
+        },
+        "location": {
+          "gridX": 197,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "30",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/31",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "31 - dj/c/cgni01/c/rack01/41/sw/tor01/31"
+        },
+        "location": {
+          "gridX": 210,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "31",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/32",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "32 - dj/c/cgni01/c/rack01/41/sw/tor01/32"
+        },
+        "location": {
+          "gridX": 210,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "32",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/33",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "33 - dj/c/cgni01/c/rack01/41/sw/tor01/33"
+        },
+        "location": {
+          "gridX": 223,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "33",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/34",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "34 - dj/c/cgni01/c/rack01/41/sw/tor01/34"
+        },
+        "location": {
+          "gridX": 223,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "34",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/35",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "35 - dj/c/cgni01/c/rack01/41/sw/tor01/35"
+        },
+        "location": {
+          "gridX": 236,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "35",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/36",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "36 - dj/c/cgni01/c/rack01/41/sw/tor01/36"
+        },
+        "location": {
+          "gridX": 236,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "36",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/37",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "37 - dj/c/cgni01/c/rack01/41/sw/tor01/37"
+        },
+        "location": {
+          "gridX": 249,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "37",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/38",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "38 - dj/c/cgni01/c/rack01/41/sw/tor01/38"
+        },
+        "location": {
+          "gridX": 249,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "38",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/39",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "39 - dj/c/cgni01/c/rack01/41/sw/tor01/39"
+        },
+        "location": {
+          "gridX": 262,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "39",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/40",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "40 - dj/c/cgni01/c/rack01/41/sw/tor01/40"
+        },
+        "location": {
+          "gridX": 262,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "40",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/41",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "41 - dj/c/cgni01/c/rack01/41/sw/tor01/41"
+        },
+        "location": {
+          "gridX": 275,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "41",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/42",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "42 - dj/c/cgni01/c/rack01/41/sw/tor01/42"
+        },
+        "location": {
+          "gridX": 275,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "42",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/43",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "43 - dj/c/cgni01/c/rack01/41/sw/tor01/43"
+        },
+        "location": {
+          "gridX": 288,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "43",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/44",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "44 - dj/c/cgni01/c/rack01/41/sw/tor01/44"
+        },
+        "location": {
+          "gridX": 288,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "44",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/45",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "45 - dj/c/cgni01/c/rack01/41/sw/tor01/45"
+        },
+        "location": {
+          "gridX": 301,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "45",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/46",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "46 - dj/c/cgni01/c/rack01/41/sw/tor01/46"
+        },
+        "location": {
+          "gridX": 301,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "46",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/47",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "47 - dj/c/cgni01/c/rack01/41/sw/tor01/47"
+        },
+        "location": {
+          "gridX": 314,
+          "gridY": 40
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "47",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/41/sw/tor01/48",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "48 - dj/c/cgni01/c/rack01/41/sw/tor01/48"
+        },
+        "location": {
+          "gridX": 314,
+          "gridY": 65
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "48",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02",
+        "comp_type": "switch",
+        "tooltip": {
+          "text": "DJ-TOR-SW-02 - dj/c/cgni01/c/rack01/40/sw/tor02"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 112
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 82
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "DJ-TOR-SW-02",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/01",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "1 - dj/c/cgni01/c/rack01/40/sw/tor02/01"
+        },
+        "location": {
+          "gridX": 15,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "1",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/02",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "2 - dj/c/cgni01/c/rack01/40/sw/tor02/02"
+        },
+        "location": {
+          "gridX": 15,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "2",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/03",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "3 - dj/c/cgni01/c/rack01/40/sw/tor02/03"
+        },
+        "location": {
+          "gridX": 28,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "3",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/04",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "4 - dj/c/cgni01/c/rack01/40/sw/tor02/04"
+        },
+        "location": {
+          "gridX": 28,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "4",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/05",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "5 - dj/c/cgni01/c/rack01/40/sw/tor02/05"
+        },
+        "location": {
+          "gridX": 41,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "5",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/06",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "6 - dj/c/cgni01/c/rack01/40/sw/tor02/06"
+        },
+        "location": {
+          "gridX": 41,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "6",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/07",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "7 - dj/c/cgni01/c/rack01/40/sw/tor02/07"
+        },
+        "location": {
+          "gridX": 54,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "7",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/08",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "8 - dj/c/cgni01/c/rack01/40/sw/tor02/08"
+        },
+        "location": {
+          "gridX": 54,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "8",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/09",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "9 - dj/c/cgni01/c/rack01/40/sw/tor02/09"
+        },
+        "location": {
+          "gridX": 67,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "9",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/10",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "10 - dj/c/cgni01/c/rack01/40/sw/tor02/10"
+        },
+        "location": {
+          "gridX": 67,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "10",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/11",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "11 - dj/c/cgni01/c/rack01/40/sw/tor02/11"
+        },
+        "location": {
+          "gridX": 80,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "11",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/12",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "12 - dj/c/cgni01/c/rack01/40/sw/tor02/12"
+        },
+        "location": {
+          "gridX": 80,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "12",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/13",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "13 - dj/c/cgni01/c/rack01/40/sw/tor02/13"
+        },
+        "location": {
+          "gridX": 93,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "13",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/14",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "14 - dj/c/cgni01/c/rack01/40/sw/tor02/14"
+        },
+        "location": {
+          "gridX": 93,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "14",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/15",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "15 - dj/c/cgni01/c/rack01/40/sw/tor02/15"
+        },
+        "location": {
+          "gridX": 106,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "15",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/16",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "16 - dj/c/cgni01/c/rack01/40/sw/tor02/16"
+        },
+        "location": {
+          "gridX": 106,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "16",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/17",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "17 - dj/c/cgni01/c/rack01/40/sw/tor02/17"
+        },
+        "location": {
+          "gridX": 119,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "17",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/18",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "18 - dj/c/cgni01/c/rack01/40/sw/tor02/18"
+        },
+        "location": {
+          "gridX": 119,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "18",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/19",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "19 - dj/c/cgni01/c/rack01/40/sw/tor02/19"
+        },
+        "location": {
+          "gridX": 132,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "19",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/20",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "20 - dj/c/cgni01/c/rack01/40/sw/tor02/20"
+        },
+        "location": {
+          "gridX": 132,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "20",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/21",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "21 - dj/c/cgni01/c/rack01/40/sw/tor02/21"
+        },
+        "location": {
+          "gridX": 145,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "21",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/22",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "22 - dj/c/cgni01/c/rack01/40/sw/tor02/22"
+        },
+        "location": {
+          "gridX": 145,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "22",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/23",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "23 - dj/c/cgni01/c/rack01/40/sw/tor02/23"
+        },
+        "location": {
+          "gridX": 158,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "23",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/24",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "24 - dj/c/cgni01/c/rack01/40/sw/tor02/24"
+        },
+        "location": {
+          "gridX": 158,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "24",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/25",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "25 - dj/c/cgni01/c/rack01/40/sw/tor02/25"
+        },
+        "location": {
+          "gridX": 171,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "25",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/26",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "26 - dj/c/cgni01/c/rack01/40/sw/tor02/26"
+        },
+        "location": {
+          "gridX": 171,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "26",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/27",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "27 - dj/c/cgni01/c/rack01/40/sw/tor02/27"
+        },
+        "location": {
+          "gridX": 184,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "27",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/28",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "28 - dj/c/cgni01/c/rack01/40/sw/tor02/28"
+        },
+        "location": {
+          "gridX": 184,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "28",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/29",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "29 - dj/c/cgni01/c/rack01/40/sw/tor02/29"
+        },
+        "location": {
+          "gridX": 197,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "29",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/30",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "30 - dj/c/cgni01/c/rack01/40/sw/tor02/30"
+        },
+        "location": {
+          "gridX": 197,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "30",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/31",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "31 - dj/c/cgni01/c/rack01/40/sw/tor02/31"
+        },
+        "location": {
+          "gridX": 210,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "31",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/32",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "32 - dj/c/cgni01/c/rack01/40/sw/tor02/32"
+        },
+        "location": {
+          "gridX": 210,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "32",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/33",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "33 - dj/c/cgni01/c/rack01/40/sw/tor02/33"
+        },
+        "location": {
+          "gridX": 223,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "33",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/34",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "34 - dj/c/cgni01/c/rack01/40/sw/tor02/34"
+        },
+        "location": {
+          "gridX": 223,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "34",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/35",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "35 - dj/c/cgni01/c/rack01/40/sw/tor02/35"
+        },
+        "location": {
+          "gridX": 236,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "35",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/36",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "36 - dj/c/cgni01/c/rack01/40/sw/tor02/36"
+        },
+        "location": {
+          "gridX": 236,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "36",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/37",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "37 - dj/c/cgni01/c/rack01/40/sw/tor02/37"
+        },
+        "location": {
+          "gridX": 249,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "37",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/38",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "38 - dj/c/cgni01/c/rack01/40/sw/tor02/38"
+        },
+        "location": {
+          "gridX": 249,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "38",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/39",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "39 - dj/c/cgni01/c/rack01/40/sw/tor02/39"
+        },
+        "location": {
+          "gridX": 262,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "39",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/40",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "40 - dj/c/cgni01/c/rack01/40/sw/tor02/40"
+        },
+        "location": {
+          "gridX": 262,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "40",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/41",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "41 - dj/c/cgni01/c/rack01/40/sw/tor02/41"
+        },
+        "location": {
+          "gridX": 275,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "41",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/42",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "42 - dj/c/cgni01/c/rack01/40/sw/tor02/42"
+        },
+        "location": {
+          "gridX": 275,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "42",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/43",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "43 - dj/c/cgni01/c/rack01/40/sw/tor02/43"
+        },
+        "location": {
+          "gridX": 288,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "43",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/44",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "44 - dj/c/cgni01/c/rack01/40/sw/tor02/44"
+        },
+        "location": {
+          "gridX": 288,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "44",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/45",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "45 - dj/c/cgni01/c/rack01/40/sw/tor02/45"
+        },
+        "location": {
+          "gridX": 301,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "45",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/46",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "46 - dj/c/cgni01/c/rack01/40/sw/tor02/46"
+        },
+        "location": {
+          "gridX": 301,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "46",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/47",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "47 - dj/c/cgni01/c/rack01/40/sw/tor02/47"
+        },
+        "location": {
+          "gridX": 314,
+          "gridY": 142
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "47",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/40/sw/tor02/48",
+        "comp_type": "switch_port",
+        "tooltip": {
+          "text": "48 - dj/c/cgni01/c/rack01/40/sw/tor02/48"
+        },
+        "location": {
+          "gridX": 314,
+          "gridY": 167
+        },
+        "size": {
+          "gridWidth": 8,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF",
+          "opacity": 0.7
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "48",
+          "fontFamily": "Tahoma",
+          "fontSize": 8,
+          "fillColor": "black",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100",
+        "comp_type": "server",
+        "tooltip": {
+          "text": "djccgni01nova0100 - dj/c/cgni01/c/rack01/30/bm/nova0100"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 214
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 88
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "djccgni01nova0100",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/platform",
+        "comp_type": "platform-status",
+        "tooltip": {
+          "text": "platform - dj/c/cgni01/c/rack01/30/bm/nova0100/platform"
+        },
+        "location": {
+          "gridX": 20,
+          "gridY": 254
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 24
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "platform",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/vswitch",
+        "comp_type": "vswitch-status",
+        "tooltip": {
+          "text": "vswitch - dj/c/cgni01/c/rack01/30/bm/nova0100/vswitch"
+        },
+        "location": {
+          "gridX": 126,
+          "gridY": 254
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 24
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "vswitch",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/system",
+        "comp_type": "system-status",
+        "tooltip": {
+          "text": "system - dj/c/cgni01/c/rack01/30/bm/nova0100/system"
+        },
+        "location": {
+          "gridX": 232,
+          "gridY": 254
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 24
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "system",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/01",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno1 - dj/c/cgni01/c/rack01/30/bm/nova0100/01"
+        },
+        "location": {
+          "gridX": 69,
+          "gridY": 292
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet1\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/01\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/02",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno2 - dj/c/cgni01/c/rack01/30/bm/nova0100/02"
+        },
+        "location": {
+          "gridX": 228,
+          "gridY": 292
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno2",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet1\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/01\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/CTR",
+        "comp_type": "server-role",
+        "tooltip": {
+          "text": "CTR - dj/c/cgni01/c/rack01/30/bm/nova0100/CTR"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 214
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "CTR",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/30/bm/nova0100/web-console",
+        "comp_type": "web-console-button",
+        "tooltip": {
+          "text": "C - dj/c/cgni01/c/rack01/30/bm/nova0100/web-console"
+        },
+        "location": {
+          "gridX": 298,
+          "gridY": 214
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "C",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101",
+        "comp_type": "server",
+        "tooltip": {
+          "text": "djccgni01nova0101 - dj/c/cgni01/c/rack01/28/bm/nova0101"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 322
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 88
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "djccgni01nova0101",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/platform",
+        "comp_type": "platform-status",
+        "tooltip": {
+          "text": "platform - dj/c/cgni01/c/rack01/28/bm/nova0101/platform"
+        },
+        "location": {
+          "gridX": 20,
+          "gridY": 362
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 24
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "platform",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/vswitch",
+        "comp_type": "vswitch-status",
+        "tooltip": {
+          "text": "vswitch - dj/c/cgni01/c/rack01/28/bm/nova0101/vswitch"
+        },
+        "location": {
+          "gridX": 126,
+          "gridY": 362
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 24
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "vswitch",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/system",
+        "comp_type": "system-status",
+        "tooltip": {
+          "text": "system - dj/c/cgni01/c/rack01/28/bm/nova0101/system"
+        },
+        "location": {
+          "gridX": 232,
+          "gridY": 362
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 24
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "system",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/01",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno1 - dj/c/cgni01/c/rack01/28/bm/nova0101/01"
+        },
+        "location": {
+          "gridX": 69,
+          "gridY": 400
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet2\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/02\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/02",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno2 - dj/c/cgni01/c/rack01/28/bm/nova0101/02"
+        },
+        "location": {
+          "gridX": 228,
+          "gridY": 400
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno2",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet2\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/02\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/CTR",
+        "comp_type": "server-role",
+        "tooltip": {
+          "text": "CTR - dj/c/cgni01/c/rack01/28/bm/nova0101/CTR"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 322
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "CTR",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/28/bm/nova0101/web-console",
+        "comp_type": "web-console-button",
+        "tooltip": {
+          "text": "C - dj/c/cgni01/c/rack01/28/bm/nova0101/web-console"
+        },
+        "location": {
+          "gridX": 298,
+          "gridY": 322
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "C",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102",
+        "comp_type": "server",
+        "tooltip": {
+          "text": "djccgni01nova0102 - dj/c/cgni01/c/rack01/26/bm/nova0102"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 430
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 88
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "djccgni01nova0102",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/app-containers",
+        "comp_type": "app-containers-status",
+        "tooltip": {
+          "text": "app-containers - dj/c/cgni01/c/rack01/26/bm/nova0102/app-containers"
+        },
+        "location": {
+          "gridX": 20,
+          "gridY": 456
+        },
+        "size": {
+          "gridWidth": 298,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "app-containers",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/platform",
+        "comp_type": "platform-status",
+        "tooltip": {
+          "text": "platform - dj/c/cgni01/c/rack01/26/bm/nova0102/platform"
+        },
+        "location": {
+          "gridX": 20,
+          "gridY": 484
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "platform",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/vswitch",
+        "comp_type": "vswitch-status",
+        "tooltip": {
+          "text": "vswitch - dj/c/cgni01/c/rack01/26/bm/nova0102/vswitch"
+        },
+        "location": {
+          "gridX": 126,
+          "gridY": 484
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "vswitch",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/system",
+        "comp_type": "system-status",
+        "tooltip": {
+          "text": "system - dj/c/cgni01/c/rack01/26/bm/nova0102/system"
+        },
+        "location": {
+          "gridX": 232,
+          "gridY": 484
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "system",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/01",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno1 - dj/c/cgni01/c/rack01/26/bm/nova0102/01"
+        },
+        "location": {
+          "gridX": 13,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet3\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/03\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/02",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno2 - dj/c/cgni01/c/rack01/26/bm/nova0102/02"
+        },
+        "location": {
+          "gridX": 51,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno2",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet3\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/03\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/07",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens2f0 - dj/c/cgni01/c/rack01/26/bm/nova0102/07"
+        },
+        "location": {
+          "gridX": 90,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens2f0",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet11\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/11\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/08",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens2f1 - dj/c/cgni01/c/rack01/26/bm/nova0102/08"
+        },
+        "location": {
+          "gridX": 129,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens2f1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet11\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/11\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/09",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens4f0 - dj/c/cgni01/c/rack01/26/bm/nova0102/09"
+        },
+        "location": {
+          "gridX": 168,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens4f0",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet21\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/21\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/10",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens4f1 - dj/c/cgni01/c/rack01/26/bm/nova0102/10"
+        },
+        "location": {
+          "gridX": 207,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens4f1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet21\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/21\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/11",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens5f0 - dj/c/cgni01/c/rack01/26/bm/nova0102/11"
+        },
+        "location": {
+          "gridX": 246,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens5f0",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet31\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/31\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/12",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens5f1 - dj/c/cgni01/c/rack01/26/bm/nova0102/12"
+        },
+        "location": {
+          "gridX": 285,
+          "gridY": 508
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens5f1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet31\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/31\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/APP",
+        "comp_type": "server-role",
+        "tooltip": {
+          "text": "APP - dj/c/cgni01/c/rack01/26/bm/nova0102/APP"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 430
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "APP",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0102/web-console",
+        "comp_type": "web-console-button",
+        "tooltip": {
+          "text": "C - dj/c/cgni01/c/rack01/26/bm/nova0102/web-console"
+        },
+        "location": {
+          "gridX": 298,
+          "gridY": 430
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "C",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103",
+        "comp_type": "server",
+        "tooltip": {
+          "text": "djccgni01nova0103 - dj/c/cgni01/c/rack01/26/bm/nova0103"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 538
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 88
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "djccgni01nova0103",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/app-containers",
+        "comp_type": "app-containers-status",
+        "tooltip": {
+          "text": "app-containers - dj/c/cgni01/c/rack01/26/bm/nova0103/app-containers"
+        },
+        "location": {
+          "gridX": 20,
+          "gridY": 564
+        },
+        "size": {
+          "gridWidth": 298,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "app-containers",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/platform",
+        "comp_type": "platform-status",
+        "tooltip": {
+          "text": "platform - dj/c/cgni01/c/rack01/26/bm/nova0103/platform"
+        },
+        "location": {
+          "gridX": 20,
+          "gridY": 592
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "platform",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/vswitch",
+        "comp_type": "vswitch-status",
+        "tooltip": {
+          "text": "vswitch - dj/c/cgni01/c/rack01/26/bm/nova0103/vswitch"
+        },
+        "location": {
+          "gridX": 126,
+          "gridY": 592
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "vswitch",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/system",
+        "comp_type": "system-status",
+        "tooltip": {
+          "text": "system - dj/c/cgni01/c/rack01/26/bm/nova0103/system"
+        },
+        "location": {
+          "gridX": 232,
+          "gridY": 592
+        },
+        "size": {
+          "gridWidth": 85,
+          "gridHeight": 22
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "system",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/01",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno1 - dj/c/cgni01/c/rack01/26/bm/nova0103/01"
+        },
+        "location": {
+          "gridX": 13,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet4\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/04\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/02",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "eno2 - dj/c/cgni01/c/rack01/26/bm/nova0103/02"
+        },
+        "location": {
+          "gridX": 51,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "eno2",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet4\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/04\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/07",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens2f0 - dj/c/cgni01/c/rack01/26/bm/nova0103/07"
+        },
+        "location": {
+          "gridX": 90,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens2f0",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet12\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/12\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/08",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens2f1 - dj/c/cgni01/c/rack01/26/bm/nova0103/08"
+        },
+        "location": {
+          "gridX": 129,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens2f1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet12\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/12\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/09",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens4f0 - dj/c/cgni01/c/rack01/26/bm/nova0103/09"
+        },
+        "location": {
+          "gridX": 168,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens4f0",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet22\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/22\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/10",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens4f1 - dj/c/cgni01/c/rack01/26/bm/nova0103/10"
+        },
+        "location": {
+          "gridX": 207,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens4f1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet22\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/22\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/11",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens5f0 - dj/c/cgni01/c/rack01/26/bm/nova0103/11"
+        },
+        "location": {
+          "gridX": 246,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens5f0",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-01\",\n        \"peer_port\": \"Ethernet32\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/41/sw/tor01/32\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/12",
+        "comp_type": "server-nic",
+        "tooltip": {
+          "text": "ens5f1 - dj/c/cgni01/c/rack01/26/bm/nova0103/12"
+        },
+        "location": {
+          "gridX": 285,
+          "gridY": 616
+        },
+        "size": {
+          "gridWidth": 40,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ens5f1",
+          "fontFamily": "Tahoma",
+          "fontSize": 10,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        },
+        "data_d": "{\n    \"peer_port\": {\n        \"peer_ne\": \"DJ-TOR-SW-02\",\n        \"peer_port\": \"Ethernet32\",\n        \"peer_port_dn\": \"dj/c/cgni01/c/rack01/40/sw/tor02/32\"\n    }\n}"
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/APP",
+        "comp_type": "server-role",
+        "tooltip": {
+          "text": "APP - dj/c/cgni01/c/rack01/26/bm/nova0103/APP"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 538
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "APP",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/26/bm/nova0103/web-console",
+        "comp_type": "web-console-button",
+        "tooltip": {
+          "text": "C - dj/c/cgni01/c/rack01/26/bm/nova0103/web-console"
+        },
+        "location": {
+          "gridX": 298,
+          "gridY": 538
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "C",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/10/bm/nova1010",
+        "comp_type": "server",
+        "tooltip": {
+          "text": "djccgni01nova1010 - dj/c/cgni01/c/rack01/10/bm/nova1010"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 646
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 88
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "djccgni01nova1010",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/10/bm/nova1010/ETC",
+        "comp_type": "server-role",
+        "tooltip": {
+          "text": "ETC - dj/c/cgni01/c/rack01/10/bm/nova1010/ETC"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 646
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ETC",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/10/bm/nova1010/web-console",
+        "comp_type": "web-console-button",
+        "tooltip": {
+          "text": "C - dj/c/cgni01/c/rack01/10/bm/nova1010/web-console"
+        },
+        "location": {
+          "gridX": 298,
+          "gridY": 646
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "C",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/09/bm/nova0909",
+        "comp_type": "server",
+        "tooltip": {
+          "text": "djccgni01nova0909 - dj/c/cgni01/c/rack01/09/bm/nova0909",
+          "fillColor": "rgb(255,193,7)"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 754
+        },
+        "size": {
+          "gridWidth": 318,
+          "gridHeight": 88
+        },
+        "fill": {
+          "fill": "none"
+        },
+        "stroke": {
+          "color": "rgb(23,23,23)",
+          "width": 2,
+          "dash": "solid"
+        },
+        "text": {
+          "text": "djccgni01nova0909",
+          "alignment": {
+            "vertical": "hanging"
+          },
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "rgb(255,255,255)",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/09/bm/nova0909/ETC",
+        "comp_type": "server-role",
+        "tooltip": {
+          "text": "ETC - dj/c/cgni01/c/rack01/09/bm/nova0909/ETC"
+        },
+        "location": {
+          "gridX": 10,
+          "gridY": 754
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "ETC",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      },
+      {
+        "type": "rectangle",
+        "id": "dj/c/cgni01/c/rack01/09/bm/nova0909/web-console",
+        "comp_type": "web-console-button",
+        "tooltip": {
+          "text": "C - dj/c/cgni01/c/rack01/09/bm/nova0909/web-console"
+        },
+        "location": {
+          "gridX": 298,
+          "gridY": 754
+        },
+        "size": {
+          "gridWidth": 30,
+          "gridHeight": 15
+        },
+        "fill": {
+          "fill": "none",
+          "color": "#FFFFFF"
+        },
+        "stroke": {
+          "color": "#171717",
+          "width": 2,
+          "dash": "1,1"
+        },
+        "text": {
+          "text": "C",
+          "fontFamily": "Tahoma",
+          "fontSize": 12,
+          "fontStyle": "italic-bold",
+          "fillColor": "gray",
+          "strokeColor": "#000000",
+          "strokeDdash": "none"
+        }
+      }
+    ], 
+    "paddingBottom": 5,
+    "paddingLeft": 5,
+    "paddingRight": 5,
+    "paddingTop": 0
+  }

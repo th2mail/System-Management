@@ -1,0 +1,382 @@
+<mxGraphModel dx="2031" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+  <root>
+    <mxCell id="gjGir7CJX8xp1e7974Y9-0" />
+    <mxCell id="gjGir7CJX8xp1e7974Y9-1" parent="gjGir7CJX8xp1e7974Y9-0" />
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-39" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="server-2" target="cloud-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="500" y="480" as="sourcePoint" />
+        <mxPoint x="250" y="270" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="540" y="570" />
+          <mxPoint x="540" y="500" />
+          <mxPoint x="480" y="500" />
+          <mxPoint x="480" y="323" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-40" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.421;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="cloud-2" target="rack-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="460.4" y="293" as="sourcePoint" />
+        <mxPoint x="520.4" y="303" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-55" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="345" y="91" as="sourcePoint" />
+        <mxPoint x="345" y="150" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="345" y="121" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cloud_type" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="250" y="20" width="190" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="cloud_type-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; cloud_type&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="cloud_type" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="cloud_type-2" value="&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;code&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="cloud_type" vertex="1">
+      <mxGeometry y="30" width="190" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="cloud" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="250" y="150" width="190" height="220" as="geometry" />
+    </mxCell>
+    <mxCell id="cloud-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; cloud&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="cloud" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="cloud-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp; &lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;region_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;alias&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;data&amp;nbsp; &amp;nbsp;LONGTEXT&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="cloud" vertex="1">
+      <mxGeometry y="30" width="190" height="190" as="geometry" />
+    </mxCell>
+    <mxCell id="rack_type" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="500" y="20" width="190" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="rack_type-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; rack_type&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="rack_type" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="rack_type-2" value="&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;code&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="rack_type" vertex="1">
+      <mxGeometry y="30" width="190" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-82" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="rack-2" target="shelf-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="450" y="332.5" as="sourcePoint" />
+        <mxPoint x="510" y="300" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="shelf" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="750" y="150" width="190" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="shelf-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; shelf&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="shelf" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="shelf-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;rack_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;num&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="shelf" vertex="1">
+      <mxGeometry y="30" width="190" height="150" as="geometry" />
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-119" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="region-2" target="network-1" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="200" y="270" as="sourcePoint" />
+        <mxPoint x="260" y="280" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="230" y="260" />
+          <mxPoint x="230" y="400" />
+          <mxPoint x="368" y="400" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="network" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="273" y="430" width="190" height="250" as="geometry" />
+    </mxCell>
+    <mxCell id="network-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="network" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="network-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;cloud_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cidr&amp;nbsp; &amp;nbsp;&lt;/span&gt;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bridge&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;physnet&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;color&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="network" vertex="1">
+      <mxGeometry y="30" width="190" height="220" as="geometry" />
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-137" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.542;entryY=0.033;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="shelf-2" target="ne-1" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="355" y="380" as="sourcePoint" />
+        <mxPoint x="355" y="440" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-151" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne-2" target="bwnNl6Z6R9z95g1DHK7J-140" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="855" y="340" as="sourcePoint" />
+        <mxPoint x="862.98" y="440.9899999999998" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1150" y="531" />
+          <mxPoint x="1150" y="530" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-163" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.712;entryY=1.003;entryDx=0;entryDy=0;exitX=0.546;exitY=0.055;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne_port-1" target="ne_port_link-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="928" y="550" as="sourcePoint" />
+        <mxPoint x="1002.4000000000001" y="540" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-164" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne_port-1" target="ne_port_link-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="1192.4" y="505" as="sourcePoint" />
+        <mxPoint x="1238" y="505" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1209" y="390" />
+          <mxPoint x="1087" y="390" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-138" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne-2" target="server-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="890" y="531" as="sourcePoint" />
+        <mxPoint x="1024.4" y="540" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="860" y="531" />
+          <mxPoint x="860" y="570" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-204" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne-2" target="switch-1" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="807.4999999999995" y="630" as="sourcePoint" />
+        <mxPoint x="682.5" y="750" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1043" y="720" />
+          <mxPoint x="1043" y="720" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-205" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=0.458;exitY=1.006;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" target="switch-2" edge="1" source="ne-2">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="902.4999999999995" y="630" as="sourcePoint" />
+        <mxPoint x="939.9999999999995" y="757.0630000000006" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="987" y="630" />
+          <mxPoint x="860" y="630" />
+          <mxPoint x="860" y="879" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-36" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" target="server_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="1305" y="600" as="sourcePoint" />
+        <mxPoint x="838" y="835.0630000000001" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1305" y="690" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-37" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="network-2" target="server_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="1214.4" y="575" as="sourcePoint" />
+        <mxPoint x="1330" y="780" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1180" y="625" />
+          <mxPoint x="1180" y="780" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="switch" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="890" y="690" width="230" height="347" as="geometry" />
+    </mxCell>
+    <mxCell id="switch-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; switch&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="switch" vertex="1">
+      <mxGeometry width="230" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="switch-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;ne_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;cloud_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;role&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;alias&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;serial&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vendor&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;model1&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;model2&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mgmt_ip&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;os_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;os_version&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span&gt;port_count&amp;nbsp; &amp;nbsp;INT(3)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;data&amp;nbsp; &amp;nbsp;TEXT&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="switch" vertex="1">
+      <mxGeometry y="30" width="230" height="317" as="geometry" />
+    </mxCell>
+    <mxCell id="server_port" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="1400" y="560" width="230" height="531" as="geometry" />
+    </mxCell>
+    <mxCell id="server_port-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; server_port&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="server_port" vertex="1">
+      <mxGeometry width="230" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="server_port-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;ne_port_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;network_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;enable&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;speed&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;phy_port_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;os_port_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mac_address&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vip_enabled&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vip_address&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(64)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;ip_address&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(64)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bone_enabled&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bond_master&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bond_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bond_pair_port&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bond_mode&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sriov_enabled&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vswitch_type&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bridge_link&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bridge_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;physnet&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;link_ne_port_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_ne_type&amp;nbsp; &amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_ne&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_ne_mgmt_ip&amp;nbsp;&lt;/span&gt;&amp;nbsp; VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_port&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_port_mac&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;lldp_data&amp;nbsp; &amp;nbsp;TEXT&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="server_port" vertex="1">
+      <mxGeometry y="30" width="230" height="501" as="geometry" />
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-65" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.628;exitY=-0.086;exitDx=0;exitDy=0;exitPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne_port-1" target="switch_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="1188" y="575" as="sourcePoint" />
+        <mxPoint x="1158" y="907.7349999999999" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1281" y="209" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-66" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="gjGir7CJX8xp1e7974Y9-1" source="bwnNl6Z6R9z95g1DHK7J-140" target="server_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="1192.4" y="575" as="sourcePoint" />
+        <mxPoint x="1158" y="907.7349999999999" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-67" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="network-2" target="switch_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="450" y="635" as="sourcePoint" />
+        <mxPoint x="1237.5" y="760" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="463" y="540" />
+          <mxPoint x="590" y="540" />
+          <mxPoint x="590" y="410" />
+          <mxPoint x="1250" y="410" />
+          <mxPoint x="1250" y="173" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-68" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.864;exitY=-0.047;exitDx=0;exitDy=0;exitPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="ne_port-1" target="switch_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="1192.9700000000003" y="590.96" as="sourcePoint" />
+        <mxPoint x="1468" y="869.25" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="1326" y="289" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="project" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="10" y="402" width="190" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="project-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; project&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="project" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="project-2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&amp;nbsp;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;namespace&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;fullname&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(512)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(512)&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="project" vertex="1">
+      <mxGeometry y="30" width="190" height="150" as="geometry" />
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-105" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="project-2" target="pod-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="450" y="303.5" as="sourcePoint" />
+        <mxPoint x="567.5000000000002" y="721" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="210" y="507" />
+          <mxPoint x="210" y="718" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uh34rz3QsskHuPe0lOql-106" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.303;exitDx=0;exitDy=0;exitPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="server-2" target="pod-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="210" y="626" as="sourcePoint" />
+        <mxPoint x="220" y="848.5" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="fHtoDJAyeUeCxaA67OMd-0" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=1.009;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" parent="gjGir7CJX8xp1e7974Y9-1" target="pod_port-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="100" y="890" as="sourcePoint" />
+        <mxPoint x="270" y="1016" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="100" y="921" />
+          <mxPoint x="230" y="921" />
+          <mxPoint x="230" y="1052" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="fHtoDJAyeUeCxaA67OMd-2" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" source="pod_port-2" target="network-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="270" y="1111.5" as="sourcePoint" />
+        <mxPoint x="211.71000000000004" y="1112.7290000000003" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="321" y="1013" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="fHtoDJAyeUeCxaA67OMd-20" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" target="rack-1" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="595" y="101" as="sourcePoint" />
+        <mxPoint x="355" y="160" as="targetPoint" />
+        <Array as="points">
+          <mxPoint x="595" y="121" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="fHtoDJAyeUeCxaA67OMd-25" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="gjGir7CJX8xp1e7974Y9-1" target="container-2" edge="1">
+      <mxGeometry width="100" height="100" relative="1" as="geometry">
+        <mxPoint x="200" y="873.5" as="sourcePoint" />
+        <mxPoint x="480" y="1129" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="server" value="" style="group;fillColor=#ffffff;" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="610" y="540" width="230" height="510" as="geometry" />
+    </mxCell>
+    <mxCell id="server-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; server&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="server" vertex="1">
+      <mxGeometry width="230" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="server-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;ne_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;cloud_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hostdomain&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;alias&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;serial&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vendor&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;model1&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;model2&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mgmt_ip&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cpu_core_count&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cpu_data&amp;nbsp; &amp;nbsp;TEXT&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cpu_description&amp;nbsp;&lt;/span&gt;&amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;ram&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;ram_data&amp;nbsp; &amp;nbsp;TEXT&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;disk&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;disk_count&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;disk_raid&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;port_count&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;os_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;os_version&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;kernel&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;platform_name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(32)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;platform_version&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(32)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;pod_count&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="server" vertex="1">
+      <mxGeometry y="30" width="230" height="480" as="geometry" />
+    </mxCell>
+    <mxCell id="region" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="10" y="150" width="180" height="190" as="geometry" />
+    </mxCell>
+    <mxCell id="region-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;region&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="region" vertex="1">
+      <mxGeometry width="180" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="region-2" value="&amp;nbsp; &lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;code&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;long_code&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;latitude&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;longitude&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="region" vertex="1">
+      <mxGeometry y="30" width="180" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="rack" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="500" y="150" width="190" height="250" as="geometry" />
+    </mxCell>
+    <mxCell id="rack-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; rack&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="rack" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="rack-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;cloud_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;alias&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;num&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;size&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;phy_type&amp;nbsp; &amp;nbsp;VARCHAR(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="rack" vertex="1">
+      <mxGeometry y="30" width="190" height="220" as="geometry" />
+    </mxCell>
+    <mxCell id="ne_port_link" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="1040" y="160" width="190" height="170" as="geometry" />
+    </mxCell>
+    <mxCell id="ne_port_link-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; ne_port_link&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="ne_port_link" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="ne_port_link-2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp; &lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&lt;span&gt;a_port_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;z&lt;/span&gt;_port_id&amp;nbsp; &amp;nbsp;INT(11)&lt;span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="ne_port_link" vertex="1">
+      <mxGeometry y="30" width="190" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="switch_port" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="1400" y="100" width="230" height="347" as="geometry" />
+    </mxCell>
+    <mxCell id="switch_port-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; switch_port&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="switch_port" vertex="1">
+      <mxGeometry width="230" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="switch_port-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&amp;nbsp;ne_port_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&amp;nbsp;network_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;enable&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;speed&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mtu&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mac_address&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;fullname&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp; link_ne_port_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;link_ne_type&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_ne&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_ne_mgmt_ip&amp;nbsp;&amp;nbsp; VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_port&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link_port_mac&amp;nbsp; &amp;nbsp;VARCHAR(255&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="switch_port" vertex="1">
+      <mxGeometry y="30" width="230" height="317" as="geometry" />
+    </mxCell>
+    <mxCell id="ne_port" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="1162" y="430" width="190" height="170" as="geometry" />
+    </mxCell>
+    <mxCell id="ne_port-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; ne_port&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="ne_port" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bwnNl6Z6R9z95g1DHK7J-140" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;ne_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;num&amp;nbsp; &amp;nbsp;VARCHAR(8)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="ne_port" vertex="1">
+      <mxGeometry y="30" width="190" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="ne" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="900" y="421" width="190" height="190" as="geometry" />
+    </mxCell>
+    <mxCell id="ne-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; ne&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="ne" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="ne-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;shelf_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(8)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;size&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="ne" vertex="1">
+      <mxGeometry y="30" width="190" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="container" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="360" y="890" width="190" height="260" as="geometry" />
+    </mxCell>
+    <mxCell id="container-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="container" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="container-2" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;pod_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;service_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;server_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;state&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;crio_id&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;image&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&amp;nbsp; &amp;nbsp;VARCHAR(512)&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="container" vertex="1">
+      <mxGeometry y="30" width="190" height="230" as="geometry" />
+    </mxCell>
+    <mxCell id="pod_port" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="10" y="937" width="190" height="213" as="geometry" />
+    </mxCell>
+    <mxCell id="pod_port-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; pod_port&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="pod_port" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="pod_port-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;pod_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;network_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;ip_address&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;description&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR&lt;span&gt;(512)&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="pod_port" vertex="1">
+      <mxGeometry y="30" width="190" height="183" as="geometry" />
+    </mxCell>
+    <mxCell id="pod" value="" style="group" parent="gjGir7CJX8xp1e7974Y9-1" vertex="1" connectable="0">
+      <mxGeometry x="10" y="631" width="190" height="260" as="geometry" />
+    </mxCell>
+    <mxCell id="pod-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; &amp;nbsp; pod&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;fillColor=#E6E6E6;" parent="pod" vertex="1">
+      <mxGeometry width="190" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="pod-2" value="&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;PK&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;create_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;update_at&amp;nbsp; &amp;nbsp;DATETIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;delete_at&amp;nbsp; &amp;nbsp;DATATIME&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;deleted&amp;nbsp; &amp;nbsp;TINYINT(1)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;project_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;service_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;FK&lt;/i&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;server_id&amp;nbsp; &amp;nbsp;INT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp;VARCHAR(16)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;full_name&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cluster_ip&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;status&lt;/span&gt;&amp;nbsp; &amp;nbsp;VARCHAR(255)&lt;br&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;container_count&amp;nbsp; &amp;nbsp;TINYINT(11)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;container_list&amp;nbsp; &amp;nbsp;MEDUIMTEXT&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=2;spacing=2;" parent="pod" vertex="1">
+      <mxGeometry y="30" width="190" height="230" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

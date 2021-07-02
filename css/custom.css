@@ -1,0 +1,300 @@
+body,
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+ 
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma, arial, \5b8b\4f53;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+ 
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+ 
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+ 
+small {
+    font-size: 12px;
+}
+ 
+ul, ol {
+    list-style: none;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+ 
+sup {
+    vertical-align: text-top;
+}
+ 
+sub {
+    vertical-align: text-bottom;
+}
+ 
+legend {
+    color: #000;
+}
+ 
+fieldset, img {
+    border: 0;
+}
+ 
+button, input, select, textarea {
+    font-size: 100%;
+}
+ 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;    
+    padding: 0px;
+}
+
+body{
+    height: calc(100% - 40px);
+    padding: 0 20px;
+}
+
+.main {
+    margin: 0 auto;
+    width : 100%;
+    /* background-color: wheat; */
+    height:100%;
+}
+
+.main .main-title {
+    width:90%;
+    height:50px;
+    /* border: 1px red solid; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(168, 168, 168)), to(white));
+    float: left;
+}
+
+.main .main-select-company {
+    width:10%;
+    height:50px;
+    /* border: 1px blue solid; */
+    background-color: blue;
+    float: left;
+    
+}
+
+.main .main-content {
+    /* width: 100%; */
+    /* height:100%; */
+    padding: 20px;
+    /* background-color: yellowgreen; */
+    clear: both;
+}
+
+.main .main-content .main-content-box:first-child {
+    width: 30%;
+    padding-right: 10px;
+    /* background-color: yellow; */
+}
+
+.main .main-content .main-content-box:nth-child(2) {
+    width: 30%;
+    /* background-color: blueviolet; */
+    padding: 0 10px;
+}
+
+.main .main-content .main-content-box:last-child {
+    width: 40%;
+    padding-left: 10px;
+    /* background-color: yellow; */
+}
+
+.main .main-content .area-1{
+    overflow:hidden; 
+    zoom:1;
+    margin-bottom: 50px;
+}
+
+.main .main-content .area-1 > * {
+    float: left;
+    /* height: 300px; */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+
+
+.main .main-content .main-content-title {
+    width:100%;
+    height:30px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(168, 168, 168)), to(white));
+}
+
+.main .main-content .main-content-box .inventory {
+    width: calc((100% - 40px) / 3);
+    float: left;
+    /* background-color: rgb(255, 133, 255); */
+    border: 1px black solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* margin-left: 10px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main .main-content .main-content-box .inventory:nth-child(1) {
+    /* background-color: aliceblue; */
+    margin-right: 10px;
+
+}
+
+.main .main-content .main-content-box .inventory:nth-child(2) {
+    /* background-color: blue; */
+    margin: 0 10px;
+
+}
+
+.main .main-content .main-content-box .inventory:nth-child(3) {
+    /* background-color: red; */
+    margin-left: 10px;
+
+}
+
+.main .main-content .main-content-box .row {
+    /* margin-bottom: 20px; */
+    height: 100px; 
+
+}
+
+.main .main-content .main-content-box .disability {
+    width: calc((100% - 20px) / 2);
+    float: left;
+    /* background-color: rgb(255, 133, 255); */
+    border: 1px black solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* margin-left: 10px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main .main-content .main-content-box .disability:nth-child(1) {
+    /* background-color: aliceblue; */
+    margin-right: 10px;
+
+}
+
+.main .main-content .main-content-box .disability:nth-child(2) {
+    /* background-color: blue; */
+    margin-left: 10px;
+
+}
+
+.main .main-content .main-content-box .row {
+    height: 120px; 
+}
+.main .main-content .main-content-box .row span {
+    margin: 0 auto;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+.main .main-content .main-content-box .row .btn span {
+    margin: 0 auto;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.main .main-content .main-content-box .row span:last-child {
+    font-weight: 800;
+}
+.main .main-content .main-content-box .row > * {
+    height: 100; 
+    cursor: pointer;
+}
+
+
+
+.main .main-content .monitoring .tabs-panel{
+    /* background-color: aqua; */
+    padding: 10px;
+    border: 1px black solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+
+}
+
+.main .main-content .monitoring .row {
+    height: 80px; 
+    /* background-color: cadetblue; */
+    margin-bottom: 5px;
+}
+.main .main-content .monitoring .row > * {
+
+    height: 80px; 
+    width: calc((100% - 15px) / 5);
+    float: left;
+    border: 1px black solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor: default;
+}
+.main .main-content .monitoring .row .btn {
+    background-color: dimgrey;
+    margin-right:15px;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .main-content #physics-tab .row .btn {
+    background-color: rgb(98, 0, 255);
+    margin-right:15px;
+    border: none;
+}
+
+.main .main-content .monitoring .row .detail-btn {
+    border-right: none;
+}
+
+.main .main-content .monitoring .row .detail-btn:last-child {
+    border: 1px black solid;
+}

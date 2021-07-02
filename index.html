@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title id='Description'>5G MEC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1" />
+    <meta name="description" content="5G MEC Project" />
+
+    <LINK href="./css/layout.css" rel="stylesheet" type="text/css"/>
+    <LINK href="./css/_common.css" rel="stylesheet" type="text/css"/>
+    <LINK href="./css/contents.css" rel="stylesheet" type="text/css"/>
+    <LINK href="./css/btn.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <!-- <link rel="stylesheet" type="text/css" href="http://rawgit.com/vitmalina/w2ui/master/dist/w2ui.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./css/w2ui.min.css" />
+
+    <script type="text/javascript">
+		mxBasePath = './lib/mxgraph';
+	</script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://rawgit.com/vitmalina/w2ui/master/dist/w2ui.min.js"></script>
+    <script src='./lib/operative.min.js'></script>
+    <script src='./lib/mxgraph/js/mxClient.js'></script>
+
+    <!-- <script type="text/javascript" src="./lib/chartjs/Chart.bundle.min.js"></script> -->
+    <script type="text/javascript" src="https://www.chartjs.org/dist/2.6.0/Chart.bundle.js"></script>
+
+    <!-- 추가된 부분 (정리 필요) -->
+    <!-- <script src="./lib/mock.js"></script> -->
+
+    <script type="text/javascript" src="./lib/echarts/dist/echarts.min.js"></script>
+
+    <script src="./lib/highchart/highcharts.js"></script>
+    <script src="./lib/highchart/highcharts-more.js"></script>
+    <script src="./lib/highchart/modules/solid-gauge.js"></script>
+
+    <!--  로딩 plugin  -->
+    <script src="./lib/mloading/jquery.mloading.js"></script>
+    <LINK href="./lib/mloading/jquery.mloading.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class='default'>
+    <!-- 매인 -->
+    <div id="layout" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"></div>
+
+    <script type="text/javascript">
+
+        //날자 포맷 ====================================================
+        Date.prototype.Format = function (fmt) { 
+            var o = {
+                "M+": this.getMonth() + 1, //월
+                "d+": this.getDate(), //일
+                "H+": this.getHours(), //시간
+                "m+": this.getMinutes(), //분
+                "s+": this.getSeconds(), //초
+                "q+": Math.floor((this.getMonth() + 3) / 3), //분기
+                "S": this.getMilliseconds() //밀리초
+            };
+            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            for (var k in o)
+                if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+            return fmt;
+        }
+        //날자 포맷 ====================================================
+
+        $(function() {
+            const pstyle = 'border: 1px #dfdfdf; padding: 5px;width:1105px;';
+
+            $('#layout').w2layout({
+                name: 'layout',
+                padding: 0,
+                panels: [
+                    { type: 'left',size: 90},
+                    // { type: 'left', size: '50%', style: pstyle}, 
+                    { type: 'main', size: '100%', style: pstyle}, 
+                    // { type: 'right', size: '20%', style: pstyle},
+                    // { type: 'preview', size: '50%', style: pstyle}, 
+                    { type: 'preview', size: '30px', style: 'border: 0px #dfdfdf; padding: 0px;width:1105px;'}
+                ]
+            })
+        })
+    </script>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
